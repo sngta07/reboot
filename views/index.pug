@@ -1,0 +1,62 @@
+doctype html 
+html
+    head 
+        title GrooveMastersStudio
+        style 
+            include ../static/style.css
+    body 
+        nav#navbar
+            ul
+                div#logo 
+                    img(src='/static/logos.png')
+                    h6 GrooveMastersStudio
+                div#lii
+                    li #[a(href='/') Home]
+                    li #[a(href='/') About]
+                    li #[a(href='/') Services]
+                    li #[a(href='/') Class Info]
+                    li #[a(href='/') Contact Us]
+
+        section#introSection
+            div WHERE PASSION MEETS PRECISION ON THE DANCE FLOOR
+            
+
+        section#missionSection
+            h2 DANCE THE WAY YOU LIKE
+            div.card 
+                h3 COUPLE DANCE
+                div.card-box
+                    div.card-img
+                        img(src='/static/a.png')
+                    div.card-content 
+                        p Whether it's the graceful movements of ballroom dancing, the energetic vibes of salsa, or the spontaneous joy of swing dancing, each style brings its own unique flavor to the dance floor. 
+               
+            div.card 
+                h3 BALLERINA
+                div.card-box
+                    div.card-img
+                        img(src='/static/b.png')
+                    div.card-content 
+                        p The beauty of ballet lies in its storytelling aspect, where every arabesque, plié, and pirouette contributes to a narrative, often expressing themes of love, tragedy, or triumph.
+            div.card 
+                h3 FREE STYLE
+                div.card-box
+                    div.card-img
+                        img(src='/static/c.png')
+                    div.card-content 
+                        p Whether it's in a dance studio, at a club, or in the comfort of one's own space, freestyle dance encourages a sense of freedom and joy in the act of moving to the rhythm of the music.
+
+
+        section#sponsorsSection
+            h3 OUR SPONSORS
+            div#sponsors
+                img(src='/static/fb.png',alt='Sponsor Image',class='spImage')
+                img(src='/static/in.png',alt='Sponsor Image',class='spImage')
+                img(src='/static/insta.png',alt='Sponsor Image',class='spImage')
+                img(src='/static/yt.png',alt='Sponsor Image',class='spImage')
+
+        footer#foot
+            | Copyright &#169; 2019 GrooveMastersStudio.com | All rights reserved. 
+
+        script 
+            include ../static/index.js 
